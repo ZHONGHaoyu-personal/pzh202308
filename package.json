@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "攀枝花市第二十五中小初2023届骐骥八班全国蹭饭图",
   "private": true,
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "serve . -l tcp://0.0.0.0:${PORT:-3000}"
   },
-  "engines": {
-    "node": ">=18"
+  "dependencies": {
+    "serve": "^14.2.4"
   }
 }
