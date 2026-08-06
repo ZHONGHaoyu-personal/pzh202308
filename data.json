@@ -1,0 +1,549 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "曹馨仪",
+      "maskedName": "曹同学",
+      "university": "西南科技大学",
+      "city": "绵阳",
+      "province": "四川",
+      "coords": [104.6796, 31.4676]
+    },
+    {
+      "id": 2,
+      "name": "陈旺熹",
+      "maskedName": "陈同学",
+      "university": "成都理工大学",
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728]
+    },
+    {
+      "id": 3,
+      "name": "戴嘉诚",
+      "maskedName": "戴同学",
+      "university": "华东理工大学",
+      "city": "上海",
+      "province": "上海",
+      "coords": [121.4737, 31.2304]
+    },
+    {
+      "id": 4,
+      "name": "郭怡多",
+      "maskedName": "郭同学",
+      "university": "电子科技大学",
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728]
+    },
+    {
+      "id": 5,
+      "name": "何思涵",
+      "maskedName": "何同学",
+      "university": "西安交通大学",
+      "city": "西安",
+      "province": "陕西",
+      "coords": [108.9402, 34.3416]
+    },
+    {
+      "id": 6,
+      "name": "何雨宸",
+      "maskedName": "何同学",
+      "university": "重庆中医药大学",
+      "city": "重庆",
+      "province": "重庆",
+      "coords": [106.5516, 29.563]
+    },
+    {
+      "id": 7,
+      "name": "雷耀钧",
+      "maskedName": "雷同学",
+      "university": "电子科技大学",
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728]
+    },
+    {
+      "id": 8,
+      "name": "廖涵宇",
+      "maskedName": "廖同学",
+      "university": "复旦大学",
+      "city": "上海",
+      "province": "上海",
+      "coords": [121.4737, 31.2304]
+    },
+    {
+      "id": 9,
+      "name": "罗秋彤",
+      "maskedName": "罗同学",
+      "university": "重庆大学",
+      "city": "重庆",
+      "province": "重庆",
+      "coords": [106.5516, 29.563]
+    },
+    {
+      "id": 10,
+      "name": "毛瑞杰",
+      "maskedName": "毛同学",
+      "university": "成都信息工程大学",
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728]
+    },
+    {
+      "id": 11,
+      "name": "毛奕博",
+      "maskedName": "毛同学",
+      "university": "武警工程大学",
+      "city": "西安",
+      "province": "陕西",
+      "coords": [108.9402, 34.3416]
+    },
+    {
+      "id": 12,
+      "name": "彭皓禹",
+      "maskedName": "彭同学",
+      "university": "电子科技大学",
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728]
+    },
+    {
+      "id": 13,
+      "name": "邱若函",
+      "maskedName": "邱同学",
+      "university": "西南石油大学",
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728]
+    },
+    {
+      "id": 14,
+      "name": "冉佟宇",
+      "maskedName": "冉同学",
+      "university": "空军航空大学",
+      "city": "长春",
+      "province": "吉林",
+      "coords": [125.3245, 43.8868]
+    },
+    {
+      "id": 15,
+      "name": "尚楚寓",
+      "maskedName": "尚同学",
+      "university": "浙江大学",
+      "city": "杭州",
+      "province": "浙江",
+      "coords": [120.1551, 30.2741]
+    },
+    {
+      "id": 16,
+      "name": "史晨希",
+      "maskedName": "史同学",
+      "university": "中国人民大学",
+      "city": "北京",
+      "province": "北京",
+      "coords": [116.4074, 39.9042]
+    },
+    {
+      "id": 17,
+      "name": "帅俊丞",
+      "maskedName": "帅同学",
+      "university": "重庆大学",
+      "city": "重庆",
+      "province": "重庆",
+      "coords": [106.5516, 29.563]
+    },
+    {
+      "id": 18,
+      "name": "汪俊霖",
+      "maskedName": "汪同学",
+      "university": "上海科技大学",
+      "city": "上海",
+      "province": "上海",
+      "coords": [121.4737, 31.2304]
+    },
+    {
+      "id": 19,
+      "name": "王鸿业",
+      "maskedName": "王同学",
+      "university": "西南交通大学",
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728]
+    },
+    {
+      "id": 20,
+      "name": "王力扬",
+      "maskedName": "王同学",
+      "university": "合肥工业大学",
+      "city": "合肥",
+      "province": "安徽",
+      "coords": [117.2272, 31.8206]
+    },
+    {
+      "id": 21,
+      "name": "王艺璇",
+      "maskedName": "王同学",
+      "university": "电子科技大学（海南校区）",
+      "city": "三亚",
+      "province": "海南",
+      "coords": [109.5180, 18.2528]
+    },
+    {
+      "id": 22,
+      "name": "肖春淏",
+      "maskedName": "肖同学",
+      "university": "哈尔滨工业大学",
+      "city": "哈尔滨",
+      "province": "黑龙江",
+      "coords": [126.5349, 45.8038]
+    },
+    {
+      "id": 23,
+      "name": "熊仁俊",
+      "maskedName": "熊同学",
+      "university": "中南民族大学",
+      "city": "武汉",
+      "province": "湖北",
+      "coords": [114.3055, 30.5928]
+    },
+    {
+      "id": 24,
+      "name": "晏梓涵",
+      "maskedName": "晏同学",
+      "university": "北京邮电大学",
+      "city": "北京",
+      "province": "北京",
+      "coords": [116.4074, 39.9042]
+    },
+    {
+      "id": 25,
+      "name": "杨焱迪",
+      "maskedName": "杨同学",
+      "university": "四川师范大学",
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728]
+    },
+    {
+      "id": 26,
+      "name": "袁艺芯",
+      "maskedName": "袁同学",
+      "university": "四川农业大学",
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728]
+    },
+    {
+      "id": 27,
+      "name": "张辉鹤",
+      "maskedName": "张同学",
+      "university": "大连医科大学",
+      "city": "大连",
+      "province": "辽宁",
+      "coords": [121.6147, 38.9140]
+    },
+    {
+      "id": 28,
+      "name": "张馨文",
+      "maskedName": "张同学",
+      "university": "成都信息工程大学",
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728]
+    },
+    {
+      "id": 29,
+      "name": "张娅茜",
+      "maskedName": "张同学",
+      "university": "中国科学技术大学",
+      "city": "合肥",
+      "province": "安徽",
+      "coords": [117.2272, 31.8206]
+    },
+    {
+      "id": 30,
+      "name": "张宇恒",
+      "maskedName": "张同学",
+      "university": "长江大学",
+      "city": "荆州",
+      "province": "湖北",
+      "coords": [112.2397, 30.3352]
+    },
+    {
+      "id": 31,
+      "name": "赵义杰",
+      "maskedName": "赵同学",
+      "university": "浙江工业大学",
+      "city": "杭州",
+      "province": "浙江",
+      "coords": [120.1551, 30.2741]
+    },
+    {
+      "id": 32,
+      "name": "赵紫涵",
+      "maskedName": "赵同学",
+      "university": "北京中医药大学",
+      "city": "北京",
+      "province": "北京",
+      "coords": [116.4074, 39.9042]
+    },
+    {
+      "id": 33,
+      "name": "钟皓宇",
+      "maskedName": "钟同学",
+      "university": "内蒙古大学",
+      "city": "呼和浩特",
+      "province": "内蒙古",
+      "coords": [111.751, 40.8414]
+    },
+    {
+      "id": 34,
+      "name": "钟润和",
+      "maskedName": "钟同学",
+      "university": "武汉大学",
+      "city": "武汉",
+      "province": "湖北",
+      "coords": [114.3055, 30.5928]
+    },
+    {
+      "id": 35,
+      "name": "周星彤",
+      "maskedName": "周同学",
+      "university": "西安美术学院",
+      "city": "西安",
+      "province": "陕西",
+      "coords": [108.9402, 34.3416]
+    },
+    {
+      "id": 36,
+      "name": "朱希彤",
+      "maskedName": "朱同学",
+      "university": "西北政法大学",
+      "city": "西安",
+      "province": "陕西",
+      "coords": [108.9402, 34.3416]
+    },
+    {
+      "id": 37,
+      "name": "黄厚霖",
+      "maskedName": "黄同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 38,
+      "name": "江虹林",
+      "maskedName": "江同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 39,
+      "name": "李妮珈",
+      "maskedName": "李同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 40,
+      "name": "吕睿",
+      "maskedName": "吕同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 41,
+      "name": "马斌豪",
+      "maskedName": "马同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 42,
+      "name": "彭玺儒",
+      "maskedName": "彭同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 43,
+      "name": "蒲欣露",
+      "maskedName": "蒲同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 44,
+      "name": "吴雨桐",
+      "maskedName": "吴同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 45,
+      "name": "钟琰茜",
+      "maskedName": "钟同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 46,
+      "name": "周恩乐",
+      "maskedName": "周同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 47,
+      "name": "周熙程",
+      "maskedName": "周同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    },
+    {
+      "id": 48,
+      "name": "朱哲佑",
+      "maskedName": "朱同学",
+      "university": "待补充",
+      "city": "待补充",
+      "province": "待补充",
+      "coords": null
+    }
+  ],
+  "cityStats": [
+    {
+      "city": "西安",
+      "province": "陕西",
+      "coords": [108.9402, 34.3416],
+      "count": 4,
+      "studentIds": [5, 11, 35, 36]
+    },
+    {
+      "city": "成都",
+      "province": "四川",
+      "coords": [104.0665, 30.5728],
+      "count": 10,
+      "studentIds": [2, 4, 7, 10, 12, 13, 19, 25, 26, 28]
+    },
+    {
+      "city": "上海",
+      "province": "上海",
+      "coords": [121.4737, 31.2304],
+      "count": 3,
+      "studentIds": [3, 8, 18]
+    },
+    {
+      "city": "重庆",
+      "province": "重庆",
+      "coords": [106.5516, 29.563],
+      "count": 3,
+      "studentIds": [6, 9, 17]
+    },
+    {
+      "city": "绵阳",
+      "province": "四川",
+      "coords": [104.6796, 31.4676],
+      "count": 1,
+      "studentIds": [1]
+    },
+    {
+      "city": "长春",
+      "province": "吉林",
+      "coords": [125.3245, 43.8868],
+      "count": 1,
+      "studentIds": [14]
+    },
+    {
+      "city": "杭州",
+      "province": "浙江",
+      "coords": [120.1551, 30.2741],
+      "count": 2,
+      "studentIds": [15, 31]
+    },
+    {
+      "city": "北京",
+      "province": "北京",
+      "coords": [116.4074, 39.9042],
+      "count": 3,
+      "studentIds": [16, 24, 32]
+    },
+    {
+      "city": "哈尔滨",
+      "province": "黑龙江",
+      "coords": [126.5349, 45.8038],
+      "count": 1,
+      "studentIds": [22]
+    },
+    {
+      "city": "武汉",
+      "province": "湖北",
+      "coords": [114.3055, 30.5928],
+      "count": 2,
+      "studentIds": [23, 34]
+    },
+    {
+      "city": "合肥",
+      "province": "安徽",
+      "coords": [117.2272, 31.8206],
+      "count": 2,
+      "studentIds": [20, 29]
+    },
+    {
+      "city": "三亚",
+      "province": "海南",
+      "coords": [109.5180, 18.2528],
+      "count": 1,
+      "studentIds": [21]
+    },
+    {
+      "city": "大连",
+      "province": "辽宁",
+      "coords": [121.6147, 38.9140],
+      "count": 1,
+      "studentIds": [27]
+    },
+    {
+      "city": "荆州",
+      "province": "湖北",
+      "coords": [112.2397, 30.3352],
+      "count": 1,
+      "studentIds": [30]
+    },
+    {
+      "city": "呼和浩特",
+      "province": "内蒙古",
+      "coords": [111.751, 40.8414],
+      "count": 1,
+      "studentIds": [33]
+    }
+  ],
+  "summary": {
+    "totalStudents": 48,
+    "totalCities": 15,
+    "totalUniversities": 32,
+    "provinces": ["安徽", "北京", "海南", "黑龙江", "湖北", "吉林", "辽宁", "内蒙古", "陕西", "上海", "四川", "浙江", "重庆"]
+  }
+}
