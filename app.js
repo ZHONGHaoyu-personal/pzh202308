@@ -1389,13 +1389,17 @@ function initMusicPlayer() {
     });
     
     // 音量控制
+    const updateVolumeUI = (val) => {
+        audio.volume = val / 100;
+        volumeSlider.style.setProperty('--volume', val + '%');
+    };
+    
     volumeSlider.addEventListener('input', (e) => {
-        const vol = e.target.value / 100;
-        audio.volume = vol;
+        updateVolumeUI(e.target.value);
     });
     
     // 初始化音量
-    audio.volume = 0.7;
+    updateVolumeUI(volumeSlider.value || 70);
 }
 
 // 后台预加载音频（在地图加载后触发）
