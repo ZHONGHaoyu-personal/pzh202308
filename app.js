@@ -174,11 +174,11 @@ function drawHeatmap() {
         // 根据强度调整颜色和透明度（降低透明度，更通透）
         const alpha = Math.min(0.4, 0.12 + intensity * 0.28);
         
-        // 颜色渐变：青色系
-        gradient.addColorStop(0, `rgba(8, 145, 178, ${alpha})`);
-        gradient.addColorStop(0.3, `rgba(6, 182, 212, ${alpha * 0.8})`);
-        gradient.addColorStop(0.6, `rgba(103, 232, 249, ${alpha * 0.5})`);
-        gradient.addColorStop(1, 'rgba(224, 247, 250, 0)');
+        // 颜色渐变：蓝→青→黄→红
+        gradient.addColorStop(0, `rgba(255, 80, 80, ${alpha})`);
+        gradient.addColorStop(0.3, `rgba(255, 180, 60, ${alpha * 0.8})`);
+        gradient.addColorStop(0.6, `rgba(255, 230, 100, ${alpha * 0.5})`);
+        gradient.addColorStop(1, 'rgba(100, 180, 255, 0)');
         
         heatmapCtx.fillStyle = gradient;
         heatmapCtx.beginPath();
@@ -232,71 +232,71 @@ function initMap() {
                 show: false
             },
             itemStyle: {
-                areaColor: '#f0fdfa',
-                borderColor: '#b8d8d8',
+                areaColor: '#f5f7fa',
+                borderColor: '#d0d7de',
                 borderWidth: 0.8
             },
             emphasis: {
                 label: {
                     show: true,
-                    color: '#0891b2',
+                    color: '#1e6fd9',
                     fontSize: 12,
                     formatter: function(params) {
                         return provinceFullNames[params.name] || params.name + '省';
                     }
                 },
                 itemStyle: {
-                    areaColor: '#b2ebf2',
-                    borderColor: '#0891b2',
+                    areaColor: '#c5dbf5',
+                    borderColor: '#1e6fd9',
                     borderWidth: 1.5
                 }
             },
             select: {
                 label: {
                     show: true,
-                    color: '#0891b2'
+                    color: '#1e6fd9'
                 },
                 itemStyle: {
-                    areaColor: '#80deea',
-                    borderColor: '#0891b2',
+                    areaColor: '#a8cfff',
+                    borderColor: '#1e6fd9',
                     borderWidth: 2
                 }
             },
             regions: [
-                { name: '北京', itemStyle: { areaColor: '#E0F7FA' } },
-                { name: '天津', itemStyle: { areaColor: '#B2EBF2' } },
-                { name: '上海', itemStyle: { areaColor: '#E0F2F1' } },
-                { name: '重庆', itemStyle: { areaColor: '#B2DFDB' } },
-                { name: '河北', itemStyle: { areaColor: '#D4F1F4' } },
-                { name: '山西', itemStyle: { areaColor: '#CCECEC' } },
-                { name: '辽宁', itemStyle: { areaColor: '#AFEEEE' } },
-                { name: '吉林', itemStyle: { areaColor: '#A7E8E8' } },
-                { name: '黑龙江', itemStyle: { areaColor: '#E0F7FA' } },
-                { name: '江苏', itemStyle: { areaColor: '#B2EBF2' } },
-                { name: '浙江', itemStyle: { areaColor: '#E0F2F1' } },
-                { name: '安徽', itemStyle: { areaColor: '#B2DFDB' } },
-                { name: '福建', itemStyle: { areaColor: '#D4F1F4' } },
-                { name: '江西', itemStyle: { areaColor: '#CCECEC' } },
-                { name: '山东', itemStyle: { areaColor: '#AFEEEE' } },
-                { name: '河南', itemStyle: { areaColor: '#A7E8E8' } },
-                { name: '湖北', itemStyle: { areaColor: '#E0F7FA' } },
-                { name: '湖南', itemStyle: { areaColor: '#B2EBF2' } },
-                { name: '广东', itemStyle: { areaColor: '#E0F2F1' } },
-                { name: '海南', itemStyle: { areaColor: '#B2DFDB' } },
-                { name: '四川', itemStyle: { areaColor: '#D4F1F4' } },
-                { name: '贵州', itemStyle: { areaColor: '#CCECEC' } },
-                { name: '云南', itemStyle: { areaColor: '#AFEEEE' } },
-                { name: '陕西', itemStyle: { areaColor: '#A7E8E8' } },
-                { name: '甘肃', itemStyle: { areaColor: '#E0F7FA' } },
-                { name: '青海', itemStyle: { areaColor: '#B2EBF2' } },
-                { name: '内蒙古', itemStyle: { areaColor: '#E0F2F1' } },
-                { name: '广西', itemStyle: { areaColor: '#B2DFDB' } },
-                { name: '西藏', itemStyle: { areaColor: '#D4F1F4' } },
-                { name: '宁夏', itemStyle: { areaColor: '#CCECEC' } },
-                { name: '新疆', itemStyle: { areaColor: '#AFEEEE' } },
-                { name: '香港', itemStyle: { areaColor: '#A7E8E8' } },
-                { name: '澳门', itemStyle: { areaColor: '#E0F7FA' } },
-                { name: '台湾', itemStyle: { areaColor: '#B2EBF2' } }
+                { name: '北京', itemStyle: { areaColor: '#FDE2E4' } },
+                { name: '天津', itemStyle: { areaColor: '#FAD2E1' } },
+                { name: '上海', itemStyle: { areaColor: '#F8E8F0' } },
+                { name: '重庆', itemStyle: { areaColor: '#FFF0F5' } },
+                { name: '河北', itemStyle: { areaColor: '#E0E7FF' } },
+                { name: '山西', itemStyle: { areaColor: '#E8EAF6' } },
+                { name: '辽宁', itemStyle: { areaColor: '#FCE4EC' } },
+                { name: '吉林', itemStyle: { areaColor: '#E3F2FD' } },
+                { name: '黑龙江', itemStyle: { areaColor: '#E1F5FE' } },
+                { name: '江苏', itemStyle: { areaColor: '#E8F5E9' } },
+                { name: '浙江', itemStyle: { areaColor: '#F1F8E9' } },
+                { name: '安徽', itemStyle: { areaColor: '#FFFDE7' } },
+                { name: '福建', itemStyle: { areaColor: '#FFF8E1' } },
+                { name: '江西', itemStyle: { areaColor: '#FFF3E0' } },
+                { name: '山东', itemStyle: { areaColor: '#FFECB3' } },
+                { name: '河南', itemStyle: { areaColor: '#FFE0B2' } },
+                { name: '湖北', itemStyle: { areaColor: '#E8EAF6' } },
+                { name: '湖南', itemStyle: { areaColor: '#F3E5F5' } },
+                { name: '广东', itemStyle: { areaColor: '#FCE4EC' } },
+                { name: '海南', itemStyle: { areaColor: '#E0F7FA' } },
+                { name: '四川', itemStyle: { areaColor: '#E8EAF6' } },
+                { name: '贵州', itemStyle: { areaColor: '#F1F8E9' } },
+                { name: '云南', itemStyle: { areaColor: '#FBE9E7' } },
+                { name: '陕西', itemStyle: { areaColor: '#FFF3E0' } },
+                { name: '甘肃', itemStyle: { areaColor: '#F3E5F5' } },
+                { name: '青海', itemStyle: { areaColor: '#E8F5E9' } },
+                { name: '内蒙古', itemStyle: { areaColor: '#ECEFF1' } },
+                { name: '广西', itemStyle: { areaColor: '#F1F8E9' } },
+                { name: '西藏', itemStyle: { areaColor: '#EDE7F6' } },
+                { name: '宁夏', itemStyle: { areaColor: '#FCE4EC' } },
+                { name: '新疆', itemStyle: { areaColor: '#E3F2FD' } },
+                { name: '香港', itemStyle: { areaColor: '#FFCCBC' } },
+                { name: '澳门', itemStyle: { areaColor: '#D7CCC8' } },
+                { name: '台湾', itemStyle: { areaColor: '#B2DFDB' } }
             ]
         },
         tooltip: {
@@ -329,7 +329,7 @@ function initMap() {
                     show: true,
                     formatter: '{b}',
                     position: 'top',
-                    color: '#0891b2',
+                    color: '#1e6fd9',
                     fontSize: 12,
                     fontWeight: '500'
                 },
@@ -339,14 +339,14 @@ function initMap() {
                 },
                 itemStyle: {
                     shadowBlur: 10,
-                    shadowColor: 'rgba(8, 145, 178, 0.5)',
+                    shadowColor: 'rgba(30, 111, 217, 0.5)',
                     color: function(params) {
                         const count = params.data.count;
-                        if (count >= 10) return '#0e7490';
-                        if (count >= 5) return '#0891b2';
-                        if (count >= 3) return '#06b6d4';
-                        if (count >= 2) return '#22d3ee';
-                        return '#67e8f9';
+                        if (count >= 10) return '#d32f2f';
+                        if (count >= 5) return '#f57c00';
+                        if (count >= 3) return '#fbc02d';
+                        if (count >= 2) return '#66bb6a';
+                        return '#42a5f5';
                     }
                 },
                 emphasis: {
@@ -479,7 +479,7 @@ function showCustomTooltip(params) {
         `;
     });
     
-    html += `<div style="margin-top:8px;color:#06b6d4;font-size:12px;text-align:center;font-weight:500;">👆 点击查看详情</div>`;
+    html += `<div style="margin-top:8px;color:#4a9eff;font-size:12px;text-align:center;font-weight:500;">👆 点击查看详情</div>`;
     
     tooltip.innerHTML = html;
     tooltip.style.display = 'block';
@@ -589,7 +589,7 @@ function showCityDetail(cityData) {
     // 按学校分组显示
     Object.entries(universityGroups).forEach(([university, students]) => {
         html += `
-            <div style="background:linear-gradient(135deg, rgba(8,145,178,0.05), rgba(6,182,212,0.02));border-radius:8px;padding:10px 12px;margin:10px 0;">
+            <div style="background:linear-gradient(135deg, rgba(30,111,217,0.05), rgba(74,158,255,0.02));border-radius:8px;padding:10px 12px;margin:10px 0;">
                 <div style="font-weight:500;color:var(--primary-dark);margin-bottom:6px;font-size:14px;">🎓 ${university} <span style="color:#888;font-weight:400;font-size:12px;">(${students.length}人)</span></div>
                 <div style="display:flex;flex-wrap:wrap;gap:6px;">
         `;
@@ -654,7 +654,7 @@ function showProvinceDetail(provinceName) {
         // 按学校分组显示
         Object.entries(universityGroups).forEach(([university, students]) => {
             html += `
-                <div style="background:linear-gradient(135deg, rgba(8,145,178,0.05), rgba(6,182,212,0.02));border-radius:8px;padding:10px 12px;margin-bottom:8px;">
+                <div style="background:linear-gradient(135deg, rgba(30,111,217,0.05), rgba(74,158,255,0.02));border-radius:8px;padding:10px 12px;margin-bottom:8px;">
                     <div style="font-weight:500;color:var(--primary-dark);margin-bottom:6px;font-size:14px;">🎓 ${university} <span style="color:#888;font-weight:400;font-size:12px;">(${students.length}人)</span></div>
                     <div style="display:flex;flex-wrap:wrap;gap:6px;">
             `;
@@ -1249,7 +1249,7 @@ async function init() {
                     <div style="text-align:center;">
                         <h2 style="color:#ff6b6b;margin-bottom:10px;">⚠️ 加载失败</h2>
                         <p style="color:#666;margin-bottom:20px;">${error.message}</p>
-                        <button onclick="location.reload()" style="padding:12px 30px;background:linear-gradient(135deg,#0891b2,#06b6d4);color:white;border:none;border-radius:25px;cursor:pointer;font-size:14px;">重新加载</button>
+                        <button onclick="location.reload()" style="padding:12px 30px;background:linear-gradient(135deg,#1e6fd9,#4a9eff);color:white;border:none;border-radius:25px;cursor:pointer;font-size:14px;">重新加载</button>
                     </div>
                 </div>
             `;
