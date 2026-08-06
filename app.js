@@ -230,7 +230,9 @@ function initMap() {
             zoom: 1.2,
             center: [104.5, 36],
             label: {
-                show: false
+                show: true,
+                color: '#666',
+                fontSize: 9
             },
             itemStyle: {
                 areaColor: '#f5f7fa',
