@@ -427,10 +427,10 @@
       "id": 48,
       "name": "朱哲佑",
       "maskedName": "朱同学",
-      "university": "待补充",
-      "city": "待补充",
-      "province": "待补充",
-      "coords": null
+      "university": "西南医科大学",
+      "city": "泸州",
+      "province": "四川",
+      "coords": [105.4433, 28.8892]
     },
     {
       "id": 49,
@@ -554,12 +554,19 @@
       "coords": [120.6199, 31.2999],
       "count": 1,
       "studentIds": [49]
+    },
+    {
+      "city": "泸州",
+      "province": "四川",
+      "coords": [105.4433, 28.8892],
+      "count": 1,
+      "studentIds": [48]
     }
   ],
   "summary": {
     "totalStudents": 49,
-    "totalCities": 16,
-    "totalUniversities": 33,
+    "totalCities": 17,
+    "totalUniversities": 34,
     "provinces": ["安徽", "北京", "海南", "黑龙江", "湖北", "吉林", "江苏", "辽宁", "内蒙古", "陕西", "上海", "四川", "浙江", "重庆"]
   }
 }
