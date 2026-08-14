@@ -869,7 +869,7 @@ function showToast(message) {
     }, 2000);
 }
 
-const strugglingStudentNames = ['何星瑞', '黄俊铭'];
+const strugglingStudentNames = ['黄俊铭'];
 
 function getUnlockTarget(input) {
     const normalizedInput = input.trim();
